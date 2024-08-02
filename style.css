@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #2B3844;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.nav-title {
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32.74px;
+}
+
+.nav-title-2 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    color: white;
+}
+
+header {
+    background-color: #202C36;
+    /* height: 100vh; */
+}
+
+.input input {
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 74px;
+    margin-top: 48px;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.input img {
+    position: absolute;
+    top: 65px;
+    left: 32px;
+}
+
+.cardss .card {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid white; */
+    background-color: #2B3844;
+}
+
+.card img {
+    width: 250px;
+    height: 160px;
+}
+
+.container-2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card h2 {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    padding-top: 32px;
+}
+
+.cardss {
+    margin: 0 auto;
+    gap: 29.6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:834px) {
+    .cardss {
+        gap: 190px;
+    }
+    .input input {
+    width: 705px;
+    height: 101px;
+    }
+    .input img {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:376px) {
+    .nav-title h1 {
+        font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+}
+    .nav-title-2 h3 {
+        font-family: Nunito Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.37px;
+}
+    .input input {
+    width: 300px;
+    height: 48px;
+    }
+
+    .cardss {
+        justify-content: center;
+    }
+}
